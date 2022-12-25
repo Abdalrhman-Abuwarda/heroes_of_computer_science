@@ -1,0 +1,64 @@
+{
+
+  "appTitle": "Heroes of Computer Science",
+
+  "openSettings": "Open Settings",
+  "wozniakName": "Steve Wozniak",
+  "wozniakBio": "Developed the {appleOne} & {appleTwo} microcomputers.",
+  "@wozniakBio": {
+
+      "placeholders": {
+
+        "appleOne": {
+
+          "type": "String",
+
+          "example": "Apple I"
+
+        },
+
+
+        "appleTwo": {
+            "type": "String",
+
+            "example": "Apple II    "
+        }
+
+      }
+      },
+      "heroCount": "{count,plural, =0{No heroes yet} =1{1 hero} other{{count} heroes}}",
+        "@heroCount": {
+          "placeholders": {
+            "count": {}
+          }
+        },
+
+         "heroBorn": "Born {date}",
+          "@heroBorn": {
+            "placeholders": {
+              "date": {
+                "type": "DateTime",
+                "format": "yMMMd"
+              }
+            }
+          },
+
+          "hopperName": "Grace Hopper",
+            "hopperBio": "Devised theory of machine-independent programming languages.",
+            "turingName": "Alan Turing",
+            "turingBio": "Father of theoretical computer science & artificial intelligence.",
+            "liskovName": "Barbara Liskov",
+            "liskovBio": "Turing Award winner; inventor of Liskov substitution principle.",
+
+
+            "bernersLeeName": "Tim Berners-Lee",
+            "bernersLeeBio": "Inventor of the World Wide Web.",
+            "gatesName": "Bill Gates",
+            "gatesBio": "Co-founder of {microsoft}; philanthropist.",
+            "@gatesBio": {
+              "placeholders": {
+                "microsoft": {}
+              }
+            }
+
+}
